@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action>
+        <fieldset>
+            <label for="Full name*">Full name*:</label> <br>
+            <input id="Full name*:" name="fullname" type="text" placeholder="FirstName LastName"> <br>
+            <label for="Email">Email*:</label> <br>
+            <input id="webaddress" type="email" placeholder="EMAIL_ADDRESS"> <br>
+       
+        
+            <label for="Select Tour Package*">Select Tour Package*:</label> <br>
+            <select>
+                <optgroup>
+                    <option>Goa</option> 
+                    <option>Paris</option>
+                    <option>Montreal</option>
+                    <option>Dubai</option>
+                </optgroup>
+            </select>    
+      
+
+
+
+        
+            <br> <label for="Arrrival Date*">Arrrival Date*:</label> <br>
+            <input id="Arrival Date" name="date" type="date"> <br>
+       
+
+     
+            <label for="Number of persons">Number of persons*:</label> <br>
+            <input id="Number of persons" name="Number of persons" type="text" placeholder="Number"> <br>
+     
+
+            <label for="What would you like to avail">What would you like to avail*?</label> <br>
+            <input id="check1" name="subject1" type="checkbox" value="Boarding"> 
+            <label for="Boarding">Boarding</label> <br>
+            <input id="check2" name="subject2" type="checkbox" value="Fooding">
+            <label for="Fooding">Fooding</label> <br>
+            <input id="check1" name="subject3" type="checkbox" value="Sight seeing">
+            <label for="Sight seeing">Sight seeing</label> <br>
+
+            <label for="Discount Coupon Code">Discount Coupon Code*:</label> <br>
+            <input id="Discount Code" name="discount code" type="text" placeholder="UNKNOWN_TYPE"> 
+
+
+            <br> <label for="Terms and Conditions">Terms and Conditions*:</label> <br> 
+
+            <input id="check1" name="subject1" type="checkbox" value="I agree">
+            <label for="HTML">I agree</label>
+            <input id="check2" name="subject2" type="checkbox" value="I disagree">
+            <label for="JAVA">I disagree</label>
+
+           <br> <input id="but1" name="click1" type="button" value="Complete Reservation">
+           <input type="color" name="color" type="color" value="#ff0000">
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
